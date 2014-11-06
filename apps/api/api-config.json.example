@@ -1,0 +1,8 @@
+{
+    "dns-zones" : {
+        "zones-path" : "/etc/bind/zones/master/"
+    },
+    "api-keys" : [
+        "b90651b8265813a78baa5e73d6434588"
+    ]
+}

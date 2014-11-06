@@ -1,0 +1,7 @@
+{
+  "name": "server",
+  "description": "Main router which routes variouse apps",
+  "dependencies": {
+    "express": ">= 1.2.0"
+  }
+}
