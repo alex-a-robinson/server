@@ -1,0 +1,7 @@
+var express = require('express')
+var vhost   = require('vhost')
+
+express()
+    .use(vhost('api.example.com',    require('./apps/api/router.js').app))
+    .use(vhost('ip.example.com',     require('./apps/ip/public-ip/app.js').app))
+    .listen(3000)
